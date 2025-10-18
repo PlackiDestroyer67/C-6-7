@@ -12,7 +12,7 @@ int main()
 	
 	koszt = spalanie * dystans / 100 * benzyna;
 	
-	cout << "koszt podrozy="; << koszt;
+	cout << "koszt podrozy=" << koszt;
 	
 
 	
