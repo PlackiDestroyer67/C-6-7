@@ -9,21 +9,23 @@ int main()
 
 	cout << "Podaj dowolna liczbe calkowita" << endl;
 	cin >> liczba;
-	if (liczba > 0){ 
+	if (liczba > 0) {
 		cout << "liczba dodatnia" << endl;
+	
+		if (liczba % 2 == 0) {
+			cout << "liczba parzysta" << endl;
 	}
-	else (liczba < 0){
+			
+	}
+	else if (liczba < 0) {
 		cout << "liczba ujemna" << endl;
 	}
-	
-	if (liczba % 2){ 
-		cout << "liczba parzysta" << endl;
-	}
-	
-	else (liczba == 0){
+
+
+	else if (liczba == 0) {
 		cout << "liczba jest zerem" << endl;
 	}
-	
+
 
 
 	return 0;
